@@ -45,22 +45,7 @@ export default class App extends Component {
     </Modal>
 
     return (
-        <View style={{flex:1,backgroundColor:'#f3f3f3'}}>
-         <Image source={require('./Images/login.png')} style = {{width: '100%',height: '100%'}}/>
-        <TouchableOpacity onPress={this.btnForgotPassword.bind(this)} style={{position:'absolute'}} >
-         <Text style={{fontSize: 12, marginTop: 354, marginLeft: 225, marginRight: 20, color:'#6A6A6A'}}>
-          Forgot Password
-           </Text>
-         </TouchableOpacity>
-       
-         {forgotPasswordModel}
-       </View>
-    
-    );
-  }
-}
-
-{/* <View style={{margin: 10}}>
+        <View style={{margin: 10}}>
         <TouchableOpacity onPress={this.btnForgotPassword.bind(this)}>
           <Text style={{fontSize: 14, backgroundColor:'white', color:'black'}}>
            Open Forgot Password popup
@@ -68,11 +53,6 @@ export default class App extends Component {
         </TouchableOpacity>
         {forgotPasswordModel}
       </View> 
-    
-     <TouchableOpacity onPress={this.setState({forgotPasswordModalVisible: true})} style={{position:'absolute'}} >
-         <Text style={{fontSize: 14, marginTop: 205, marginLeft: 100, marginRight: 30, color:'#6A6A6A'}}>
-          Forgot Password
-           </Text>
-         </TouchableOpacity>
-    
-    */}
+    );
+  }
+}
