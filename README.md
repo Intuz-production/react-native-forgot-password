@@ -1,4 +1,8 @@
-<h1>Introduction</h1>
+## About Intuz
+This library is maintained by [Intuz](https://www.intuz.com) — an AI-first software development company specializing in [React Native app development](https://www.intuz.com/custom-app-development)
+and [mobile app development](https://www.intuz.com/ios-development).
+<br><br>
+
 INTUZ presents a very useful React Native component which allows you to have a popup of forgot password feature for your next mobile app projects. Try it your self by following below integration, Enjoy!
 
 <br>
